@@ -1,0 +1,347 @@
+@media (min-width: 1024px) AND (max-width: 2560px) {
+    * {
+        font-family: 'Lexend Peta', sans-serif;
+    }
+    body {
+        background-color: white;
+        padding: 0;
+        margin: 0;
+    }
+    .conteudo-banner {
+        background-color: #d88786;
+        padding: 10px;
+        text-align: center;
+    }
+    section .conteudo-banner img {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        padding: 0px 10px 0px 0px;
+        border-radius: 90px;
+    }
+    .banner-atendimento h1 {
+        letter-spacing: 3.5px;
+        font-family: 'Alata', sans-serif;
+        font-size: 35px !important;
+    }
+    .banner-atendimento {
+        letter-spacing: -1px;
+        text-align: center;
+        padding: 5px 5px;
+        background-color: #7fcbbe;
+    }
+    #carouselSite {
+        text-align: -webkit-center !important;
+        margin-top: 50px !important;
+        margin-bottom: 100px !important;
+        display: block !important;
+    }
+    #carouselSite img {
+        display: block;
+        width: 550px !important;
+        border-radius: 30px !important;
+    }
+    #carouselSite2 {
+        text-align: -webkit-center !important;
+        padding: 50px !important;
+    }
+    #carouselSite2 img {
+        transition-duration: 0.5ms !important;
+        border-radius: 20px !important;
+        width: 700px;
+    }
+    .w-100 {
+        width: none;
+    }
+    #corpo-conteudo h2 {
+        padding-bottom: 7px;
+        font-size: 27px;
+    }
+    #corpo-conteudo {
+        padding: 65px 20px 40px 55px;
+        color: #312c2cd2;
+        background-color: #d88786;
+    }
+    #texto-h4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block;
+        line-height: 25px;
+        margin: 10px 100px 0px 100px;
+        font-size: 17.5px;
+        color: #312c2cd2;
+        text-align: justify;
+    }
+    #produtos {
+        padding-left: 30px;
+        padding-bottom: 65px;
+        color: #312c2cd2;
+        background-color: #d88786;
+    }
+    #produtos img {
+        margin-left: 50px;
+        width: 450px;
+        position: inherit;
+        display: block;
+        margin-bottom: 50px;
+    }
+    #produtos h3 {
+        margin-top: 80px;
+        position: absolute;
+        margin-left: 550px;
+        font-size: 15px;
+        padding-top: 50px;
+        padding-right: 55px;
+        text-align: justify;
+    }
+    #contato {
+        text-align: center;
+        padding: 10px 10px;
+        background-color: #da9491;
+    }
+    #contato .icone-titulo {
+        width: 55px;
+    }
+    #titulo-sessao {
+        color: #312c2cd2;
+        font-size: 27px;
+        margin-top: 150px;
+        text-align: center;
+    }
+    .titulo-sessao-left {
+        margin-left: 30px;
+        color: #312c2cd2;
+        font-size: 27px;
+        padding: 10px 0px 0px 68px;
+    }
+    .conteudo-contato a {
+        color: rgba(0, 0, 0, 0.37);
+        font-size: 20px;
+    }
+    .conteudo-contato a:hover {
+        color: rgb(15, 160, 170);
+    }
+    .conteudo-contato {
+        color: white;
+        margin-left: 20px;
+        text-align: left;
+    }
+    .conteudo-contato h3 {
+        letter-spacing: 3px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .conteudo-contato h3 {
+        display: inline;
+    }
+    #rodape {
+        background-color: white;
+        padding: 10px 5px;
+    }
+    #rodape h6 {
+        margin-top: 5px;
+        position: absolute;
+        padding: 5px;
+        letter-spacing: 2px;
+        margin-left: 25px;
+        font-size: 19px;
+        font-family: 'Bebas Neue', cursive;
+    }
+    #rodape .rodape-cartoes img {
+        margin-left: 360px;
+        width: 250px;
+    }
+    /* .titulo-sessao-left {
+        opacity: 0;
+        transform: translate3d(-100px, 0, 0);
+        transition: .3s;
+    } */
+    .titulo-sessao-left-start {
+        opacity: 1;
+        transform: translate(0, 0, 0);
+    }
+    [data-anime] {
+        opacity: 0;
+    }
+    [data-anime="left"] {
+        transform: translate3d(-100px, 0, 0);
+        transition: 0.2s;
+    }
+    [data-anime="right"] {
+        transform: translate3d(300px, 0, 0);
+        transition: 0.3s;
+    }
+    [data-anime="bottom"] {
+        transform: translate3d(0, 300px, 0);
+        transition: 0.3s;
+    }
+    [data-anime].animate {
+        opacity: 1;
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
+
+@media (min-width: 320px) AND (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar {
+        margin: 0;
+    }
+    section .conteudo-banner img {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        padding: 0px 10px 0px 0px;
+        border-radius: 90px;
+    }
+    .banner-atendimento h1 {
+        letter-spacing: 1px;
+        font-family: 'Alata', sans-serif;
+        font-size: 22px !important;
+    }
+    .banner-atendimento {
+        letter-spacing: -1px;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 5px;
+        background-color: #7fcbbe;
+    }
+    #carouselSite {
+        margin-top: 20px !important;
+        margin-bottom: 5px !important;
+        padding-bottom: 30px;
+        display: block !important;
+    }
+    #carouselSite img {
+        width: 300px !important;
+        border-radius: 30px !important;
+    }
+    #carouselSite2 {
+        text-align: -webkit-center !important;
+        padding: 25px !important;
+    }
+    #carouselSite2 img {
+        transition-duration: 0.5ms !important;
+        border-radius: 20px !important;
+        width: 350px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    #titulo-sessao {
+        color: #312c2cd2;
+        font-size: 17px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .titulo-sessao-left {
+        font-size: 18px;
+        padding: 20px 0px;
+        margin: auto;
+        padding: 15px 0;
+    }
+    #produtos {
+        padding-left: 0px;
+        padding-bottom: 30px;
+        color: #312c2cd2;
+        background-color: #d88786;
+    }
+    #produto h2 {
+        padding-bottom: 7px;
+        font-size: 18px;
+        padding: 10px 0 0 0;
+    }
+    #corpo-conteudo h2 {
+        padding-bottom: 7px;
+        font-size: 18px;
+        padding: 10px 0 0 0;
+    }
+    #corpo-conteudo {
+        padding: 30px 0px;
+        color: #312c2cd2;
+        background-color: #d88786;
+    }
+    #texto-h4 {
+        margin: auto;
+        padding-top: 10px;
+        text-align: -webkit-auto;
+        padding-bottom: 20px;
+        line-height: 19px;
+        font-size: 12px;
+        color: #312c2cd2;
+        margin: 0px 12px;
+    }
+    #contato {
+        text-align: center;
+        padding: 5px 5px;
+        background-color: #da9491;
+    }
+    #contato h2 {
+        font-size: 14px;
+        padding: 2px;
+    }
+    #contato .icone-titulo {
+        width: 40px;
+    }
+    .conteudo-contato a {
+        color: rgba(0, 0, 0, 0.37);
+        font-size: 12px;
+    }
+    .conteudo-contato a:hover {
+        color: rgb(15, 160, 170);
+    }
+    .conteudo-contato {
+        color: white;
+        margin-left: 5px;
+        text-align: left;
+    }
+    .conteudo-contato h3 {
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .conteudo-contato h3 {
+        display: inline;
+    }
+    #rodape {
+        background-color: white;
+        padding: 10px 5px;
+    }
+    #rodape h6 {
+        margin-top: 5px;
+        position: absolute;
+        padding: 5px;
+        letter-spacing: 2px;
+        margin-left: 5px;
+        font-size: 8px;
+        font-family: 'Bebas Neue', cursive;
+    }
+    #rodape .rodape-cartoes img {
+        margin-left: 190px;
+        width: 100px;
+    }
+    [data-anime] {
+        opacity: 0;
+    }
+    [data-anime="left"] {
+        transform: translate3d(-10px, 0, 0);
+        transition: 0.2s;
+    }
+    [data-anime="right"] {
+        transform: translate3d(0, 10px, 0);
+        transition: 0.3s;
+    }
+    [data-anime="bottom"] {
+        transform: translate3d(0, 10, 0);
+        transition: 0.3s;
+    }
+    [data-anime].animate {
+        opacity: 1;
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
